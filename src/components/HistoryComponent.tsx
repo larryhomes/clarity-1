@@ -42,7 +42,7 @@ const HistoryComponent = async ({ limit, userId }: Props) => {
                   {new Date(game.timeEnded ?? 0).toLocaleDateString()}
                 </p>
                 <p className="text-sm text-muted-foreground">
-                  {game.gameType === "mcq" ? "Multiple Choice" : "Open-Ended"}
+                  {game.gameType === "mcq" ? "Risposta Multipla" : "Domande Aperte"}
                 </p>
               </div>
             </div>
